@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../student.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container1">
+      <div class="form-mark">
+        <h1>Mark Student</h1>
+        <form>
+          <input type="text" id="inputFiel" placeholder="Enter Name" />
+          <input
+            type="number"
+            id="math"
+            placeholder="Enter mark Math"
+            min="0"
+            max="10"
+          />
+          <input
+            type="number"
+            id="physical"
+            placeholder="Enter mark Physical"
+            min="0"
+            max="10"
+          />
+          <input
+            type="number"
+            id="chemistry"
+            placeholder="Enter mark Chemistry"
+            min="0"
+            max="10"
+          />
+          <!-- <input id ="submit"  class="btn"  type="submit" value="Show"> -->
+          <input id="submit" class="btn" type="button" value="Submit" />
+          <input id="avg" class="btn" type="submit" value="Avg" />
+          <input id="good" class="btn" type="submit" value="Good" />
+          <input id="save" class="btn" type="submit" value="Save" />
+        </form>
+        <p
+          id="errorName"
+          style="margin-bottom: 10px; color: red; font-family:Lucidatypewriter, monospace; font-size: 20px;"
+        ></p>
+        <p
+          id="errorMark"
+          style="margin-bottom: 10px; color: red; font-family:Lucidatypewriter, monospace; font-size: 20px;"
+        ></p>
+      </div>
+      <div class="result">
+        <h2 style="padding-top: 5px; color: #3d3d3d;">Result final</h2>
+        <div>
+          <table id="myTable" style="margin: 0 auto; background-color: salmon;">
+            <tr>
+              <td id="name" style="background-color: #D980FA;">
+                Name
+              </td>
+              <td id="math" style="background-color: #D980FA;">
+                Mark Math
+              </td>
+              <td id="physical" style="background-color: #D980FA;">
+                Mark Physical
+              </td>
+              <td id="chemistry" style="background-color: #D980FA;">
+                Mark Chemistry
+              </td>
+              <td style="background-color: #D980FA;">
+                Total Avg
+              </td>
+              <td style="background-color: #D980FA;">
+                Update
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script  src="../studentLogic.js"></script>
+    <!-- <script type="module" src="../student.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+    "student1" : {
+    "id": 1, 
+       "name" : "ronaldo",
+       "math" : 10,
+       "physical" : 10,
+       "chemistry": 9
+    },
+    
+    "student2" : {
+    "id": 2,
+       "name" : "kaka",
+       "math" : 5,
+       "physical" : 5,
+       "chemistry": 9
+    },
+    
+    "student3" : {
+    "id": 3,
+         "name" : "messi",
+         "math" : 5,
+         "physical" : 5,
+         "chemistry": 9
+    }
+ }

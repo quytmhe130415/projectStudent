@@ -1,0 +1,5 @@
+{"id":1,"name":"a","math":10,"physical":10,"chemistry":10,"average":10}
+{"id":2,"name":"b","math":1,"physical":1,"chemistry":1,"average":1}
+{"id":3,"name":"c","math":8,"physical":8,"chemistry":8,"average":8}
+{"id":4,"name":"d","math":7,"physical":7,"chemistry":7,"average":7}
+{"id":5,"name":"e","math":6,"physical":6,"chemistry":6,"average":6}
